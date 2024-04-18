@@ -24,7 +24,6 @@ First, request an interactive session with GPU using the following command:
 srun    --time 1:00:00 \
         --gres==gpu:A6000:1 \
         --mem=30GB \
-        --exclude=babel-3-[3,11,32,36],babel-4-[7,11,13,18] \
         --pty \
         bash
 ```
