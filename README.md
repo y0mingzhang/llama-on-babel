@@ -29,7 +29,6 @@ srun    --time=1:00:00 \
 ```
 
 The `srun` command starts a job in the real-time, and this command will request a node with 1 GPU, 30GB memory, and 1 hour time limit.
-The `--exclude` flag is optional, and it is used to include only nodes with A6000 GPUs on babel.
 
 Note: slurm documentation can be found [here](https://slurm.schedmd.com/srun.html).
 
